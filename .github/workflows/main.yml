@@ -1,12 +1,12 @@
-name: Java CI with maven
+name: Java CI with Maven
 on:
  Push:
   branches: [main]
 
 jobs:
- builds:
-  runs-on: ubundu-latest
-  steps:
-   -name: Checkout Code
-    uses: actions/checkout@v4
+  builds:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
     
