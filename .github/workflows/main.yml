@@ -1,6 +1,6 @@
 name: Java CI with Maven
 on:
- Push:
+ push:
   branches: [main]
 
 jobs:
